@@ -8,10 +8,11 @@ public class PopulateDB {
 		
 		EsameDAO vd = new EsameDAO();
 		
+		/*
 		// Cancello dal DB tutti i voti inseriti
 		vd.cancellaTuttiEsami();
 		
-		// Aggiungo al DB la seguente lista di esami:
+		// Aggiungo al DB la seguente lista di esami: 
 		vd.inserisciEsame(new Esame("16ACFPL", "Analisi matematica I", 10, 27));
 		vd.inserisciEsame(new Esame("16AHMPL", "Chimica", 8, 26));
 		vd.inserisciEsame(new Esame("12BHDPL", "Informatica", 8, 25));
@@ -34,7 +35,8 @@ public class PopulateDB {
 		vd.inserisciEsame(new Esame("02CBRPL", "Programmazione e gestione della produzione", 10, 30));
 		vd.inserisciEsame(new Esame("01NBDPL", "Sistemi telematici", 8, 27));
 		vd.inserisciEsame(new Esame("01QYVPL", "Crediti liberi del 3° anno", 6, 22));
-		vd.inserisciEsame(new Esame("01NBEPL", "Progettazione di servizi web e reti di calcolatori", 8, 19));
+		vd.inserisciEsame(new Esame("01NBEPL", "Progettazione di servizi web e reti di calcolatori", 8, 19)); 
+		*/
 		
 		// Ottengo la lista di tutti i voti
 		System.out.println("Voti inseriti");
